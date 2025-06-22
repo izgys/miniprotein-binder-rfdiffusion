@@ -59,10 +59,10 @@ Why: Known therapeutic relevance, structural data available
 
 ```mermaid
 graph TD
-    A[Select Target Protein + Structure] --> B[Analyze Binding Interface]
-    B --> C[Generate Miniprotein Backbones (RFdiffusion)]
-    C --> D[Design Sequences (ProteinMPNN)]
-    D --> E[Predict Structures (AlphaFold2 or RosettaRelax)]
+    A[Select Target Protein and Structure] --> B[Analyze Binding Interface]
+    B --> C[Generate Miniprotein Backbones - RFdiffusion]
+    C --> D[Design Sequences - ProteinMPNN]
+    D --> E[Predict Structures - AlphaFold2 or RosettaRelax]
     E --> F[Score and Rank Candidates]
     F --> G[Visualize and Analyze Binders]
     G --> H[Summarize Top Designs]
