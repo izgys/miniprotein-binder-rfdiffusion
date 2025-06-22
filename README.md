@@ -1,11 +1,8 @@
-# Save the README.md without using problematic markdown symbols like triple backticks or mermaid blocks
+# 🧬 De Novo Miniprotein Binder Design with RFdiffusion + Rosetta
 
-readme_final_cleaned = """# 🧬 De Novo Miniprotein Binder Design with RFdiffusion + Rosetta
-
-**Author:** [Your Name]  
+**Author:** Iker Zapirain Gysling  
 **Project Type:** Generative AI + Computational Protein Design + Structural Bioinformatics  
 **Status:** 🚧 In Progress  
-**Estimated Time:** ~6–8 weeks (1 hour/day)
 
 ---
 
@@ -49,9 +46,11 @@ This is a step-by-step, fully documented learning project aimed at:
 
 ## 🎯 Target Protein
 
-Target: To be selected (e.g., HER2, IL-6, PD-1)  
-PDB ID: To be defined  
-Why: Known therapeutic relevance, structural data available
+- **Target:** SARS-CoV-2 Spike Receptor Binding Domain (RBD)
+- **PDB ID:** [6M0J](https://www.rcsb.org/structure/6M0J)
+- **Target Chain:** E (RBD only)
+- **Why this target?** Critical for viral entry into human cells, high therapeutic relevance, well-characterized, and widely used in binder design studies.
+
 
 ---
 
@@ -120,4 +119,4 @@ miniprotein-binder-rfdiffusion/
 ---
 
 This project is a part of a series of portfolio projects focused on AI-driven protein design for drug discovery and biotechnology.
-"""
+
