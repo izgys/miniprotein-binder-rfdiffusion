@@ -1,4 +1,4 @@
-# 🧬 De Novo Miniprotein Binder Design with RFdiffusion + Rosetta
+# De Novo Miniprotein Binder Design with RFdiffusion + Rosetta
 
 **Author:** Iker Zapirain Gysling  
 **Project Type:** Generative AI + Computational Protein Design + Structural Bioinformatics  
@@ -6,7 +6,7 @@
 
 ---
 
-## 📍 Project Overview
+## Project Overview
 
 This project demonstrates the use of state-of-the-art AI tools to design novel miniprotein binders from scratch, targeting a therapeutically relevant protein. The pipeline integrates RFdiffusion for backbone generation, ProteinMPNN for sequence design, and Rosetta/AlphaFold2 for structure refinement and ranking.
 
@@ -17,7 +17,7 @@ This is a step-by-step, fully documented learning project aimed at:
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Select a therapeutic target with available 3D structure (e.g., IL-6, HER2, PD-1)
 - Generate candidate binder backbones with RFdiffusion
@@ -29,7 +29,7 @@ This is a step-by-step, fully documented learning project aimed at:
 
 ---
 
-## 🛠️ Tools and Technologies
+## Tools and Technologies
 
 | Tool/Library             | Purpose                                                |
 |--------------------------|--------------------------------------------------------|
@@ -44,7 +44,7 @@ This is a step-by-step, fully documented learning project aimed at:
 ---
 
 
-## 🎯 Target Protein
+## Target Protein
 
 - **Target:** SARS-CoV-2 Spike Receptor Binding Domain (RBD)
 - **PDB ID:** [6M0J](https://www.rcsb.org/structure/6M0J)
@@ -54,7 +54,7 @@ This is a step-by-step, fully documented learning project aimed at:
 
 ---
 
-## 🧭 Workflow Summary
+## Workflow Summary
 
 ```mermaid
 graph TD
@@ -68,8 +68,9 @@ graph TD
 ```
 ---
 
-## 🗂️ Folder Structure
+## Folder Structure
 
+```text
 miniprotein-binder-rfdiffusion/  
 ├── README.md  
 ├── .gitignore  
@@ -85,10 +86,11 @@ miniprotein-binder-rfdiffusion/
 │   ├── structures/  
 │   └── analysis/  
 └── logs/  
+```
 
 ---
 
-## 📌 Commit Progress
+## Commit Progress
 
 - Initial commit: project structure and README  
 - Added HER2 target PDB and sequence data  
@@ -100,7 +102,7 @@ miniprotein-binder-rfdiffusion/
 
 ---
 
-## 📈 Outcomes & Learnings
+## Outcomes & Learnings
 
 - Top binder sequences with highest pLDDT / lowest Rosetta energy  
 - Interface analysis and contact maps  
@@ -108,7 +110,7 @@ miniprotein-binder-rfdiffusion/
 
 ---
 
-## 📚 References
+## References
 
 - https://github.com/RosettaCommons/RFdiffusion  
 - https://github.com/dauparas/ProteinMPNN  
